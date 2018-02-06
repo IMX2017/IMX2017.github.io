@@ -48,7 +48,7 @@ OS:
     mov al,1b
     mov bl,0101_1011b
     int 10h
-;=============vvod dann=============
+;=============Input=============
 vvod:
     mov ah,00h
     int 16h ;al=simvol
